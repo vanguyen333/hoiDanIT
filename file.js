@@ -16,6 +16,8 @@ let obj = {
     return "";
   },
 };
-let b = "Eric";
+let b = "name";
+obj.name = "Harry";
+
 console.log(`What is your name? My name is: `, obj.name);
 console.log(obj.a());
