@@ -10,8 +10,13 @@ let arr = ["MU", "ManCity", "Liver", "Chelsea"];
 //   console.log(`Top`, i + 1, arr[i]);
 // }
 
-var i = 0;
-while (i < 4) {
+// var i = 0;
+// while (i < 4) {
+//   console.log(`Top`, i + 1, arr[i]);
+//   i++;
+// }
+
+let i = 0;
+do {
   console.log(`Top`, i + 1, arr[i]);
-  i++;
-}
+} while (i < 0);
