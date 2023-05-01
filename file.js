@@ -13,6 +13,7 @@ let obj = {
   address: "Hanoi",
   a: function () {
     console.log("Hellow world inside a function of an object!");
+    return "";
   },
 };
 let b = "Eric";
