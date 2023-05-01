@@ -1,6 +1,11 @@
 console.log("Learn For Loop!");
 
+// let arr = ["MU", "ManCity", "Liver", "Chelsea"];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
 let arr = ["MU", "ManCity", "Liver", "Chelsea"];
 for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
+  console.log(`Top: `, i + 1, arr[i]);
 }
