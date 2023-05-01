@@ -11,6 +11,10 @@ console.log("Hello world from Green Pear!".toUpperCase());
 let obj = {
   name: "Eric",
   address: "Hanoi",
+  a: function () {
+    console.log("Hellow world inside a function of an object!");
+  },
 };
 let b = "Eric";
 console.log(`What is your name? My name is: `, object.name);
+console.log(obj.a);
