@@ -13,4 +13,4 @@ let obj = {
   address: "Hanoi",
 };
 let b = "Eric";
-console.log(`What is your name? My name is: ${obj.name}`);
+console.log(`What is your name? My name is: `, object.name);
