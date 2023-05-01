@@ -16,5 +16,5 @@ let obj = {
   },
 };
 let b = "Eric";
-console.log(`What is your name? My name is: `, object.name);
-console.log(obj.a);
+console.log(`What is your name? My name is: `, obj.name);
+console.log(obj.a());
