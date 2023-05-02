@@ -36,6 +36,7 @@ let arr = ["MU", "ManCity", "Liver", "Chelsea"];
 
 let i = 0;
 while (i < arr.length) {
+  console.log(">>>check i: ", i);
   if (arr[i] === "Chelsea") {
     console.log("found it: ", arr[i]);
     break;
