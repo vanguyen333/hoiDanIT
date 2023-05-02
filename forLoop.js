@@ -16,7 +16,20 @@ let arr = ["MU", "ManCity", "Liver", "Chelsea"];
 //   i++;
 // }
 
+// let i = 0;
+// do {
+//   console.log(`Top`, i + 1, arr[i]);
+// } while (i < 0);
+
+//printing index that has the length of 2, result is MU
 let i = 0;
-do {
-  console.log(`Top`, i + 1, arr[i]);
-} while (i < 0);
+while (i < arr.length) {
+  if (arr[i].length === 2) {
+    console.log(arr[i]);
+  } else if (arr[i].length === 5) {
+    console.log(arr[i]);
+  } else {
+    console.log("do nothing");
+  }
+  i++;
+}
